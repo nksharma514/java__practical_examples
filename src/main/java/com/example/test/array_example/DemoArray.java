@@ -1,0 +1,31 @@
+package com.example.test.array_example;
+
+import java.util.Random;
+
+public class DemoArray {
+	
+	public static void main(String args[]) {
+		
+		Random r = new Random();
+		int a[] = new int[100];
+
+//		a[0] = 11;
+//		a[1] = 22;
+//		a[2] = 33;
+//		a[3] = 44;
+//		a[4] = 55;
+		
+		for(int i=0; i<a.length; i++) {
+			
+			a[i]= r.nextInt(50);
+			System.out.println(a[i]);
+		}
+		
+		
+		
+		
+		
+		
+	}
+
+}
